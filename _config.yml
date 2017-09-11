@@ -1,0 +1,20 @@
+# Site settings
+title: Matthew Pineda
+description: Computer Science Student and Wanna-be Developer in Los Angeles, California
+# baseurl: "/particle" # the subpath of your site, e.g. /blog
+# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+
+# User settings
+username: Matthew Pineda
+user_description: I am a Computer Science student studying at Mount San Antonio College. My ultimate goal is to become a well rounded software developer and make a meaningful impact through my skills. I love rock climbing, beach rock, and javascript.
+user_title: Computer Science Student
+email: mpineda3247@gmail.com
+twitter_username: mpineda2
+github_username:  bowedcontainer2
+gplus_username:  mpineda3247
+
+# Google-analytics
+google-analytics:
+  id: ""
+
+exclude: ['package.json', 'src' , 'node_modules']
