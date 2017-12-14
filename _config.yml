@@ -14,7 +14,7 @@ github_username:  bowedcontainer2
 gplus_username:  mpineda3247
 
 # Google-analytics
-google-analytics: mpineda3247
-  id: "UA-108891607-1"
+google-analytics: 
+  id: ""
 
 exclude: ['package.json', 'src' , 'node_modules']
