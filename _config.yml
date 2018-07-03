@@ -1,20 +1,28 @@
-# Site settings
-title: Matthew Pineda
-description: "Computer Science Student and Wanna-be Developer in Los Angeles, California"
-# baseurl: "/particle" # the subpath of your site, e.g. /blog
-# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+# Profile information
+name: Matthew Pineda
+title: Computer Science Student in Los Angeles, CA
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+permalink: ':title/'
+baseurl: "/posts" # the subpath of your site, e.g. /blog
+url: "bowedcontainer2.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
-# User settings
-username: Matthew Pineda
-user_description: I am a Computer Science student studying at Mount San Antonio College. My ultimate goal is to become a well rounded software developer and make a meaningful impact through my skills. I love rock climbing, beach rock, and javascript.
-user_title: Computer Science Student
-email: mpineda3247@gmail.com
-twitter_username: mpineda2
-github_username:  bowedcontainer2
-gplus_username:  mpineda3247
+# Contact form
+email: #your-email@domain.com
 
-# Google-analytics
-google-analytics:
-  id: ""
 
-exclude: ['package.json', 'src' , 'node_modules']
+# Paginate
+paginate: 5
+paginate_path: /page:num/
+
+# Build settings
+markdown: kramdown
+gems:
+  - jekyll-feed
+  - jekyll-paginate
+exclude:
+  - Gemfile
+  - Gemfile.lock
+include: [_pages]
